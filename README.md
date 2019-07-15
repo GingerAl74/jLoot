@@ -23,9 +23,12 @@ The following command line options are supported:
 ```
  -u baseURL     The base url of the JIRA instance
  -s start_id    The starting attachment ID (attachments start at 10000)
+                Default value is 10000
  -l limit       The limit for file downloads
  -o out_dir     The output directory (default is loot/)
  -y yara_rules  Specify custom yara rules
+ -e logoutput   Specify log output file name
+                default is "log"
 ```
 
 ## Setup ##
